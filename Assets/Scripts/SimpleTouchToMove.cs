@@ -15,6 +15,7 @@ public class SimpleTouchToMove : MonoBehaviour
     public float jumpForce = 3f;
     public float stopForce = 2f;
     public Animator animator;
+    public GameObject jumpEffect;
     // Update is called once per frame
     void Update()
     {
@@ -44,7 +45,7 @@ public class SimpleTouchToMove : MonoBehaviour
                 Quaternion targetRotation = moveDirection != Vector3.zero ? Quaternion.LookRotation(moveDirection) : transform.rotation;
                 //on applique la rotation
                 transform.rotation = targetRotation;
-                moveDirection = moveDirection * speed;
+                moveDirection = moveDirection.normalized * speed;
             }
         }
         else
@@ -57,6 +58,7 @@ public class SimpleTouchToMove : MonoBehaviour
         //Gestion du saut
         if(Input.GetMouseButtonUp(0) && characterController.isGrounded)
         {
+            Instantiate(jumpEffect, transform.position, Quaternion.identity);
             //Faire sauter le personnage
             moveDirection.y += jumpForce;
         }
