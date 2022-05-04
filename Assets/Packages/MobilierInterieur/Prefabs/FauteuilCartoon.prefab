@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4076707409569815765}
   - component: {fileID: 1097897954583483248}
   - component: {fileID: 2943228897036298170}
+  - component: {fileID: 4070916724657428934}
   m_Layer: 0
   m_Name: FauteuilCartoon
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.6782611, y: 0.19990484, z: 0.19990486, w: 0.67826104}
   m_LocalPosition: {x: -10.78, y: -1.27, z: -24.87}
   m_LocalScale: {x: 123.79134, y: 123.79134, z: 22.76693}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -81,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4070916724657428934
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3735893562142541423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2641108469474182516, guid: 98a0cf5d978e44f40a5ff143dc3b8dd3, type: 3}

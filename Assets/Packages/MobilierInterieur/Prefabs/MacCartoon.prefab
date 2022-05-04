@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8585727250159896459}
   - component: {fileID: 4650383212628084782}
   - component: {fileID: 7452768733748264164}
+  - component: {fileID: -5615085207297101007}
   m_Layer: 0
   m_Name: MacCartoon
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.69092375, y: -0.06814701, z: -0.070643306, w: 0.71623325}
   m_LocalPosition: {x: 29.393126, y: -1.4097049, z: -29.238138}
   m_LocalScale: {x: 174.68063, y: 6.7401485, z: 122.37779}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -82,3 +85,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-5615085207297101007
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965947629290413361}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2507972151391003694, guid: 95af8f3625356df4d92f2ae6b692e72d, type: 3}

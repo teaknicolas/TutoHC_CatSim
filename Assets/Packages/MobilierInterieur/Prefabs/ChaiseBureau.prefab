@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1092102815462512887}
   - component: {fileID: 4073565426432857938}
   - component: {fileID: 2264397355850081176}
+  - component: {fileID: 942126332974075594}
   m_Layer: 0
   m_Name: ChaiseBureau
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.000000018360735, y: 0.87374145, z: 0.000000032982815, w: 0.48639065}
   m_LocalPosition: {x: 10.416798, y: -4.801372, z: 0.52043843}
   m_LocalScale: {x: 17.031141, y: 17.031143, z: 10.900305}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -82,3 +85,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &942126332974075594
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318696838056673869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1300777377499869241, guid: 869a0e77614c3dc4d830779459060046, type: 3}

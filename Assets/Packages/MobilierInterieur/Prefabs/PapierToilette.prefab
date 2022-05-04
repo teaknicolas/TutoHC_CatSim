@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5032724366186798586}
   - component: {fileID: 8248359969423577695}
   - component: {fileID: 6169079338711623317}
+  - component: {fileID: -2300659120495480771}
   m_Layer: 0
   m_Name: PapierToilette
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.0000000688394, y: -0.000000068839384, z: 0.7071067, w: 0.7071068}
   m_LocalPosition: {x: -16.4, y: 11.8, z: -28.9}
   m_LocalScale: {x: 9.575067, y: 9.575067, z: 43.330685}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -82,3 +85,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-2300659120495480771
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664407418213500736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7085979573164554181, guid: bd2912f9f5c33314799d0d788f8d8310, type: 3}

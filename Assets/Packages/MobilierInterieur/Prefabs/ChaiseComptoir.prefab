@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 211567340914637734}
   - component: {fileID: 3837199878048805891}
   - component: {fileID: 1343356628716847305}
+  - component: {fileID: 7264187028359715508}
   m_Layer: 0
   m_Name: ChaiseComptoir
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.70386356, y: 0.06764676, z: 0.06764676, w: 0.70386356}
   m_LocalPosition: {x: 1.8, y: -1.6163, z: -2.63}
   m_LocalScale: {x: 77.293785, y: 4.404258, z: 4.4042573}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -82,3 +85,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7264187028359715508
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694807565551935772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6904882462257810012, guid: 1a31276edfefa4e42861e321fb93842c, type: 3}

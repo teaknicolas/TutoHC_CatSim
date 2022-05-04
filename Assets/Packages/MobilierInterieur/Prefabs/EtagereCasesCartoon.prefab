@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6644015165202045329}
   - component: {fileID: 7753952820686100020}
   - component: {fileID: 5512234746239967998}
+  - component: {fileID: 957324444006496120}
   m_Layer: 0
   m_Name: EtagereCasesCartoon
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.46100906, y: -0.5361629, z: -0.54241276, w: 0.4536392}
   m_LocalPosition: {x: -25.3, y: 2.4, z: -12.8}
   m_LocalScale: {x: 206.3702, y: 37.043903, z: 206.3702}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -81,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &957324444006496120
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6304925385844671275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7117852736228548379, guid: 170cc867276e9f3478f79525ae596bd8, type: 3}

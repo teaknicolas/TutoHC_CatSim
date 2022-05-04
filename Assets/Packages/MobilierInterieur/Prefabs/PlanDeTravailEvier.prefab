@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2118145901992528190}
   - component: {fileID: 3083542894841808539}
   - component: {fileID: 949703877608419921}
+  - component: {fileID: 3714548440541690965}
   m_Layer: 0
   m_Name: PlanDeTravailEvier
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.67895365, y: -0.19753993, z: -0.19753991, w: 0.6789536}
   m_LocalPosition: {x: 32.6, y: 1.7999988, z: -11.7}
   m_LocalScale: {x: 67.54416, y: 72.89469, z: 67.54416}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -82,3 +85,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3714548440541690965
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598490711236711300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2329056047041703686, guid: 05ab068a8b24e1f4eb7d96832a2b3c90, type: 3}

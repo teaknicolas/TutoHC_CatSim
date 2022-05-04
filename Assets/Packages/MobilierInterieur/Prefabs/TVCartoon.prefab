@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7844156513952034958}
   - component: {fileID: 6589840887178755883}
   - component: {fileID: 8977686261283326945}
+  - component: {fileID: -6442908618916020220}
   m_Layer: 0
   m_Name: TVCartoon
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.71913916, y: -0.043660767, z: -0.039111033, w: 0.6923893}
   m_LocalPosition: {x: -1.1183, y: -2.0178, z: -11.727}
   m_LocalScale: {x: 10.090956, y: 10.090953, z: 32.742577}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -81,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-6442908618916020220
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464675041328572980}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3734136656694947978, guid: d3b468a05518fa34fb01be8f7e6395ad, type: 3}

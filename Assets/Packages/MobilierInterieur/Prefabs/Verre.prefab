@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3568185155498005076}
   - component: {fileID: 444562148405337585}
   - component: {fileID: 2436326051662014779}
+  - component: {fileID: -315993878273752249}
   m_Layer: 0
   m_Name: Verre
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0.000000021775506, y: 0.08558364, z: -0.0000000018704898, w: 0.996331}
   m_LocalPosition: {x: 1.74, y: 1.6656435, z: -5.96}
   m_LocalScale: {x: 22.728886, y: 22.728884, z: 22.728886}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -81,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-315993878273752249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237726527199348974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5544528185745780391, guid: 7a9e182191642e641b07d55b906073d8, type: 3}

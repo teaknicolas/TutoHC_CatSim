@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1652572948020460948}
   - component: {fileID: 2396132440556106289}
   - component: {fileID: 478563035140720379}
+  - component: {fileID: 6204327945802299775}
   m_Layer: 0
   m_Name: Evier
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: -0.6960494, y: -0.124560304, z: -0.1245603, w: 0.6960494}
   m_LocalPosition: {x: 8.9, y: 2.6, z: -8.8}
   m_LocalScale: {x: 7.478214, y: 7.478214, z: 37.494564}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -81,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6204327945802299775
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136059703776356142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5746147162638082140, guid: 7b7460062e21e2e4f876ae80134b9e00, type: 3}

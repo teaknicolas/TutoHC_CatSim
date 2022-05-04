@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1176643640987838120}
   - component: {fileID: 2881068722435549453}
   - component: {fileID: 8844423824842183}
+  - component: {fileID: -5704515357043128893}
   m_Layer: 0
   m_Name: Crayon
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0.98967165, y: -0.000000010822836, z: -0.14335282, w: -0.00000007471813}
   m_LocalPosition: {x: 26.64, y: -2.73, z: -29.26}
   m_LocalScale: {x: 1.4583843, y: 1.4583843, z: 27.935944}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,6 +53,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -81,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-5704515357043128893
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954447360033373202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2123866163247891807, guid: fb8e6765d4b96cb488ab375ee0e26da1, type: 3}
